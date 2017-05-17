@@ -10,7 +10,8 @@ class Hello extends Component {
     return (
     <div>	
       <h1>Hello {this.props.name}</h1>
-      <h3>It's time for tea!</h3>
+      <h2>Your age is {this.props.age}</h2>
+      <h3>my animals are {this.props.animals}</h3>
     </div>  
     )
   }
